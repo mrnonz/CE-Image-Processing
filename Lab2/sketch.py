@@ -22,4 +22,4 @@ ax_ang.imshow(np.angle(grad), cmap='hsv')  # hsv is cyclic, like angles
 ax_ang.set_title('Gradient orientation')
 ax_ang.set_axis_off()
 
-fig.show()
+plt.show()
