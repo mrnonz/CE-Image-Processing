@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-lena = cv2.imread('lufy.png', 0)
+lena = cv2.imread('img/Bearstack.png', 0)
 # lena = misc.face()
 
 scharr = np.array([[-3 - 3j, 0 - 10j,  +3 - 3j],
