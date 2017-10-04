@@ -1,0 +1,38 @@
+M1 = 1;
+M2 = 0;
+diff = 0.1;
+l_bw(:,:,:,1) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,2) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,3) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,4) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,5) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,6) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,7) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,8) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,9) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,10) = (M1*ori) + (M2*ori2);
+M1 = M1-diff;
+M2 = M2+diff;
+l_bw(:,:,:,11) = (M1*ori) + (M2*ori2);
+
+
+mov = immovie(l_bw);
+implay(mov);
